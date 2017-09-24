@@ -1,0 +1,56 @@
+print('')
+print('')
+print('||====================================||')
+print('||            K O G A M A             ||')
+print('||         G E N E R A T O R          ||')
+print('||====================================||')
+print('')
+print('')
+print('')
+print('Welcome to the kogama golds generator.')
+print('')
+input('PRESS ENTER TO CONTINUE !                                                                                                                                                                                                                            ')
+print('')
+print('')
+code = int, str((249314))
+password = int, str((input('Enter the code to continue: ')))
+while password != code:
+    password = int, str((input('Try again: ')))
+    if password == code:
+     print('Code valid until 01/10/2017 !')
+print('Code valid until 09/07/2018 !')
+print('')
+print('Check the current code at https://www.youtube.com/channel/UCvj-pzOOYlvOS2m3WGXjVjw?view_as=subscriber')
+print('')
+print('============= Registration: (1 time per account) ============='.upper())
+print('')
+nome = input('Nick kogama: ')
+email = input("Email kogama: ")
+email = email.lower().strip()
+print('')
+print('ESTA PÁGINA FOI TRADUZIDA PELO CANAL: NO NAME')
+print('')
+dividido = nome.split()
+cores = {'limpa':'\033[m',
+         'vermelho':'\033[31m'}
+if "@" in email:
+    print('Caro {}{}{}, o email é válido !'.format(cores['vermelho'], dividido[0], cores['limpa']))
+else:
+    print('Caro {}{}{}, estamos verificando seu email... !'.format(cores['vermelho'], dividido[0], cores['limpa']))
+while not "@" in email:
+    email = input('Digite seu email novamente: ')
+    print('Caro {}{}{}, o email é válido !'.format(cores['vermelho'], dividido[0], cores['limpa']))
+dividido = nome.split()
+print('')
+
+cores = {'limpa':'\033[m',
+         'vermelho':'\033[31m'}
+print('Hello {}{}{}!! Welcome to the server! '.format(cores['vermelho'], dividido[0], cores['limpa']))
+print('')
+print('')
+ouros = input('PRESSIONE ENTER PARA RECEBER 500 OUROS EM {}{}{}'.format(cores['vermelho'], nome, cores['limpa']))
+print('')
+#print('')
+print('')
+print('')
+print('Você recebeu {}500 ouros{} !'.format(cores['vermelho'], cores['limpa']))
